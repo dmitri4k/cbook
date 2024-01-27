@@ -54,7 +54,7 @@ b = *(p+i) // b = a[i];
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <malloc.h>
@@ -82,6 +82,8 @@ int main()
   getchar();  getchar();
   return 0;
 }
+```
+
 Результат выполнения программы:
 
 Динамическое выделение памяти
@@ -123,7 +125,7 @@ j — индекс столбца.
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <malloc.h>
@@ -162,6 +164,8 @@ int main()
   getchar();  getchar();
   return 0;
 }
+```
+
 Результат выполнения
 
 Ввод и вывод значений динамического двумерного массива
@@ -180,8 +184,7 @@ int main()
 
 
 
-
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <malloc.h>
@@ -225,6 +228,9 @@ int main()
   getchar();  getchar();
   return 0;
 }
+```
+
+
 Результат выполнения программы аналогичен предыдущему случаю.
 
 Свободные массивы
@@ -243,7 +249,7 @@ int main()
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -287,6 +293,8 @@ int main()
   getchar(); getchar();
   return 0;
 }
+```
+
 Результат выполнения
 
 Свободный массив
@@ -310,7 +318,7 @@ size — новый размер, в байтах, выделяемого бло
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <malloc.h>
@@ -338,4 +346,6 @@ int main()
   getchar(); getchar();
   return 0;
 }
+```
+
 Результат выполнения

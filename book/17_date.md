@@ -17,7 +17,7 @@ struct tm	Структурный тип, содержащий компонент
 Например,
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -48,6 +48,8 @@ int main()
   getchar();
   return 0;
 }
+```
+
 Дата и время
 Структура tm имеет вид
 
@@ -140,9 +142,10 @@ const struct tm *restrict tmpt); // указатель на структуру t
 %z	Смещение от UTC ("-800" означает на 8 ч по Гринвичу западнее).
 %Z	Наименование часового пояса (если доступно)
 %%	% (то есть знак процента).
+
 Функция, позволяющая вывести день недели на русском языке
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -183,6 +186,8 @@ int main()
   getchar();
   return 0;
 }
+```
+
 Результат выполнения
 
 Дата и время
@@ -192,7 +197,7 @@ int main()
 Реализация на Си
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <time.h>
@@ -213,12 +218,14 @@ int main()
   getchar();
   return 0;
 }
+```
+
 Результат выполнения
 
 Добавление нескольких дней к текущей дате
 Реализация функции задержки
 
-
+```
 #include <stdio.h>
 #include <time.h>
 void delay(int ms) // аргумент - требуемое время задержки в миллисекундах
@@ -234,4 +241,5 @@ int main()
   getchar();
   return 0;
 }
+```
 Результат выполнения

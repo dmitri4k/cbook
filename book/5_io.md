@@ -114,7 +114,7 @@ int main()
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS // для возможности использования scanf в Visual Studio
 #include <stdio.h>
 #include <stdlib.h> // для перехода на русский язык
@@ -129,6 +129,8 @@ int main()
   getchar(); getchar();
   return 0;
 }
+```
+
 Результат работы программы:
 
 Функция scanf()
@@ -139,7 +141,7 @@ int main()
 
 
 
-
+```
 #include <stdio.h>
 int main()
 {
@@ -150,3 +152,4 @@ int main()
   getchar(); getchar();
   return 0;
 }
+```

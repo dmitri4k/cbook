@@ -161,7 +161,7 @@ int main()
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -180,6 +180,8 @@ int main()
   getchar();
   return 0;
 }
+```
+
 Результат выполнения
 
 Использование объединений
@@ -187,7 +189,7 @@ int main()
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -213,6 +215,8 @@ int main()
   getchar(); getchar();
   return 0;
 }
+```
+
 Результат выполнения
 Поменять местами байты
 Битовые поля
@@ -229,7 +233,7 @@ int main()
 
 
 
-
+```
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -254,6 +258,8 @@ int main()
   getchar();
   return 0;
 }
+```
+
 Результат выполнения
 
 Битовые поля
@@ -265,7 +271,7 @@ int main()
 
 
 
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 struct book
@@ -298,6 +304,8 @@ int main()
   getchar();
   return 0;
 }
+```
+
 Результат выполнения
 Массив структур
 Указатели на структуры
@@ -320,7 +328,7 @@ int main()
 
 
 
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
@@ -355,4 +363,5 @@ int main()
   getchar();
   return 0;
 }
+```
 Результат выполнения аналогичен предыдущему решению.

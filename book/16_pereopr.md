@@ -1,9 +1,7 @@
 Переопределение типов
 
-РЕКЛАМА
 Оператор переопределения типов typedef вводит синоним для существующего типа, например
 
- 
  typedef unsigned char BYTE;
 BYTE b;  // b – типа unsigned char
 Использование typedef для переопределения типов аналогично директиве #define, но
@@ -23,7 +21,7 @@ name my;  // my – строка из 30 символов
 typedef широко применяются в Windows API для описания типов функций, применяемых в программировании оконных приложений Windows.
 
 
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct Books
@@ -45,4 +43,5 @@ int main()
   getchar(); getchar();
   return 0;
 }
+```
 Результат выполнения:
