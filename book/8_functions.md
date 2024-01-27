@@ -1,4 +1,4 @@
-Функции
+# Функции
 
 Функция — это самостоятельная единица программы, которая спроектирована для реализации конкретной подзадачи.
 
@@ -208,21 +208,22 @@ int main()
 
 **Основные математические функции стандартной библиотеки.**
 
-| Функция					        | Описание
-| int abs(int x)			        | Модуль целого числа x
-| double acos(double x)			    | Арккосинус x
-| double asin(double x)		    	| Арксинус x
-| double atan(double x)			    | Арктангенс x
-| double cos(double x)  			| Косинус x
-| double cosh(double x)	    		| Косинус гиперболический x
-| double exp(double x)		    	| Экспонента x
-| double fabs(double x)		    	| Модуль вещественного числа
-| double fmod(double x, double y)   | Остаток от деления x/y
-| double log(double x)		    	| Натуральный логарифм x
-| double log10(double x)			| Десятичный логарифм x
-| double pow(double x, double y)	| x в степени y
-| double sin(double x)  			| Синус x
-| double sinh(double x)	    		| Синус гиперболический x
-| double sqrt(double x)		    	| Квадратный корень x
-| double tan(double x)			    | Тангенс x
-| double tanh(double x)		    	| Тангенс гиперболический x
+|             Функция             |          Описание          |
+|:-------------------------------:|:--------------------------:|
+| int abs(int x)                  | Модуль целого числа x      |
+| double acos(double x)           | Арккосинус x               |
+| double asin(double x)           | Арксинус x                 |
+| double atan(double x)           | Арктангенс x               |
+| double cos(double x)            | Косинус x                  |
+| double cosh(double x)           | Косинус гиперболический x  |
+| double exp(double x)            | Экспонента x               |
+| double fabs(double x)           | Модуль вещественного числа |
+| double fmod(double x, double y) | Остаток от деления x/y     |
+| double log(double x)            | Натуральный логарифм x     |
+| double log10(double x)          | Десятичный логарифм x      |
+| double pow(double x, double y)  | x в степени y              |
+| double sin(double x)            | Синус x                    |
+| double sinh(double x)           | Синус гиперболический x    |
+| double sqrt(double x)           | Квадратный корень x        |
+| double tan(double x)            | Тангенс x                  |
+| double tanh(double x)           | Тангенс гиперболический x  |
