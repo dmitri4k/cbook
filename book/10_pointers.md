@@ -39,7 +39,7 @@
 |   Адрес  |     &c     |     p     |
 | Значение |      c     |     *p    |
 
-Пример на Си
+Пример:
 ```
 #include <stdio.h>
 #include <stdlib.h>
