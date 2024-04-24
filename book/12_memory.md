@@ -381,5 +381,3 @@ int main()
   return 0;
 }
 ```
-
-35.png
